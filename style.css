@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800&family=Roboto:wght@100;300;400&display=swap');
+
+.space {
+    height: 7px;
+    width: 100vw;
+    background-color: #D1D9E6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: #f4f5f7;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.navbar {
+    background-color: #fff;
+    height: 10vh;
+    position: sticky;
+    inset: 0;
+    width: 100vw;
+    z-index: 1;
+    box-shadow: 0 4px 17px rgba(0, 0, 0, .1);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    font-size: 2.5rem;
+    font-weight: 800;
+    padding: 0 2.5vw;
+    display: flex;
+    align-items: center;
+    cursor: default;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    gap: 0.8vw;
+}
+
+ul li a {
+    display: block;
+    padding: 0 0.833vw;
+    font-size: 1.2vw;
+    letter-spacing: 0.09vw;
+    font-weight: 600;
+}
+
+ul li a:hover {
+    color: #f9532d;
+}
+
+#toggle {
+    color: #f9532d;
+    display: flex;
+    align-items: center;
+    padding: 0.75vw 1.833vw;
+    cursor: pointer;
+}
+
+/* Dark Mode Enable Properties */
+
+.darkNav {
+    background-color: #000000;
+}
+
+.darkNav a {
+    color: #ffffff;
+}
+
+.darkNav #toggle {
+    color: #ffffff;
+}
+
+/* nav end */
+
+/* section-1 start */
+
+.container {
+    min-height: 40vh;
+}
+
+#section-1 {
+    padding-bottom: 80px;
+}
+.about {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: inherit;
+}
+
+.img {
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+    border-top: 2px solid red;
+    width: 400px;
+}
+
+.image {
+    padding-top: 60px;
+}
+
+.yourself {
+    width: 50vw;
+    min-height: 40vh;
+}
+
+.yourself h2 {
+    letter-spacing: 0.08rem;
+}
+
+.name1 {
+    color: #f9532d;
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 0.08rem;
+    padding: 10px 10px 0 0;
+}
+
+.name2 {
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 0.08rem;
+    padding: 10px 0 0 0;
+}
+
+.yourself p {
+    font-size: 1.2rem;
+    padding-top: 10px;
+    letter-spacing: 0.01rem;
+}
+
+.social,
+.social-1 {
+    padding-top: 10px;
+    display: flex;
+    gap: 12px;
+    color: black;
+}
+
+.social a {
+    font-size: 0.7rem;
+    border: 2px solid #f9532d;
+    border-radius: 50%;
+    padding: 13px;
+}
+
+.social a i {
+    color: #f9532d;
+}
+
+.social a i:hover {
+    color: black;
+}
+
+.social a:hover {
+    background-color: #f9532d;
+    box-shadow: 0 0 10px #f9532d;
+    color: black;
+}
+
+#typeWrite {
+    height: 2rem;
+    font-size: 2rem;
+    letter-spacing: 0.05rem;
+    color: #f9532d;
+    font-weight: 700;
+    border-right: 4px solid #000000;
+    display: inline-block;
+}
+
+/* section-1 end */
+
+/* section-2 start */
+
+.developer {
+    margin: 20px;
+    padding: 100px;
+}
+
+.web {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+
+.aboutMe {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.abhay {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.abhay h1 {
+    font-size: 5vw;
+    letter-spacing: 0.085vw;
+}
+
+.abhay h1 span {
+    padding-left: 30px;
+}
+
+.abhay p {
+    padding-top: 20px;
+}
+
+#button {
+    color: black;
+    background-color: #f9532d;
+    margin-top: 70px;
+    padding: 15px 25px;
+    font-weight: 600;
+    font-size: 1.02rem;
+    border-radius: 50px;
+}
+
+button:hover {
+    box-shadow: 0 0 15px #f9532d;
+    cursor: pointer;
+}
+
+/* section-2 end */
+
+/* section-3 start */
+
+
+.dot {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    margin: 0px 10px;
+    background-color: #f9532d;
+    display: inline-block;
+}
+
+.Skills {
+    padding: 15px 0 0 10vw;
+    display: grid;
+    grid-template-columns: 7vw 3vw 3vw 3vw 3vw 3vw;
+}
+
+/* section-3 end */
+
+/* section-4 :start */
+
+.projects {
+    display: grid; 
+    grid-template-columns: 50vw 40vw;
+}
+
+.projects img {
+    width: 500px; 
+    border-radius: 30px; 
+    margin-left: 80px;
+}
+
+/* section-5 start */
+
+#contact {
+    font-size: 6rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.contactus {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50vw;
+    margin: 10px auto;
+}
+
+.box {
+    border-radius: 50px;
+    height: 50px;
+    padding-left: 20px;
+    margin-bottom: 40px;
+}
+
+.box-3 {
+    border-radius: 25px;
+    height: 150px;
+    padding-left: 20px;
+    margin-bottom: 40px;
+}
+
+.label {
+    display: grid;
+    padding: 0 20px 5px 20px;
+}
+
+.btn {
+    color: black;
+    background-color: #f9532d;
+    padding: 5px 15px;
+    font-weight: 600;
+    font-size: 1.02rem;
+    border-radius: 50px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+/* section-5 end */
+
+/* section-6 start */
+
+#blogs {
+    font-size: 6rem; 
+    letter-spacing: 0.3rem; 
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* section-6 end */
+
+/* footer start */
+
+footer {
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+    min-height: 40vh;
+}
+
+.line-1 {
+    border: 0.5px solid #f9532d;
+    margin-top: 30px;
+}
+
+footer h1 {
+    padding: 30px 0px;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.social-1 {
+    gap: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-1 a {
+    font-size: 1.2rem;
+    border: 2px solid #f9532d;
+    border-radius: 50%;
+    padding: 10px;
+    color: black;
+    background-color: #f9532d;
+}
+
+.social-1 a:hover {
+    box-shadow: 0 0 20px #f9532d;
+}
+
+.last {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nameAbhay {
+    font-size: 2rem;
+    padding-left: 20px;
+}
+
+.list-1 {
+    padding-right: 20px;
+}
+
+.list-1 li a {
+    color: white;
+}
+
+.reserved {
+    display: flex;
+    justify-content: center;
+    gap: 2.3rem;
+    padding-bottom: 20px;
+}
+
+/* footer end */
+
+/* ResponsiveNess */
+
+@media screen and (max-width: 1200px) {
+    .projects {
+        /* display: flex; */
+        flex-direction: column;
+    }
+}
